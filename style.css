@@ -40,7 +40,7 @@ button {
     border-radius: calc(var(--font) * 0.6);
     padding: calc(var(--font) * 0.5);
     margin: 0;
-    line-height: 1; 
+    line-height: 1;
     position: relative;
     background-color: transparent;
     color: white;
@@ -49,9 +49,8 @@ button {
 }
 
 button img {
-    height: 1.2em;
-    margin-left: 0.5em;
-    padding: 5%;
+    height: 1.1em;
+    margin-right: 0.5em;
 }
 
 button:hover {
@@ -115,6 +114,18 @@ span::after {
     opacity: 0;
     transform: translateX(-100%);
 
+}
+
+.notification-dot {
+    position: absolute;
+    top: 20%;
+    right: 4%;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(255, 251, 0);
+    border-radius: 50%;
+    z-index: 999;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 button:hover>span::after {
